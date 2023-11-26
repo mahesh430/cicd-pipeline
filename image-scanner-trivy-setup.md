@@ -1,7 +1,7 @@
 
 ## Deployment
 
-To deploy this project on ubuntu serveer  run
+To deploy this project on ubuntu server run
 
 ```bash
 wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb
