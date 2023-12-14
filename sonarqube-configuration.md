@@ -37,7 +37,7 @@ Access SonarQube by navigating to `http://YourInstancePublicIP:9000` in a web br
 - Click on the Account on the top right corner and navigate to Security 
 ![Screenshot 2023-11-25 at 11 47 29 PM](https://github.com/mahesh430/spring-boot/assets/16769593/7943f865-be1d-4c8a-8b5a-eeb99c478a8c)
 
-- Create a taken for jenkins , and copy the token ID 
+- Create a token for jenkins , and copy the token ID 
 ![Screenshot 2023-11-25 at 11 55 52 PM](https://github.com/mahesh430/spring-boot/assets/16769593/bc36fedf-fcfe-4da2-bad1-fd2508eb6b6f)
 
 ### Step 5: SonarQube Setup on Jenkins
