@@ -48,9 +48,10 @@ Jenkins Pipeline for Java spring boot based application using Maven, SonarQube,D
    ```bash
    sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
-echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+  echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  
    ```
 
 5. **Install Jenkins Git and maven **:
