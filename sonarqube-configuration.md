@@ -26,8 +26,10 @@ Check if the SonarQube container is running:
 ```bash
 docker ps
 ```
-
-### Step 4: Access SonarQube and Token Setup
+### Step 4: Install plugin on jenkins
+Go to Manage jenkins - > plugins - > available plugins.
+Search for SonarQube Scanner and install.
+### Step 5: Access SonarQube and Token Setup
 Access SonarQube by navigating to `http://YourInstancePublicIP:9000` in a web browser. You should see the SonarQube setup page.
 
 - Enter the default credentials as admin/admin and then reset the password.
@@ -40,7 +42,7 @@ Access SonarQube by navigating to `http://YourInstancePublicIP:9000` in a web br
 - Create a token for jenkins , and copy the token ID 
 ![Screenshot 2023-11-25 at 11 55 52 PM](https://github.com/mahesh430/spring-boot/assets/16769593/bc36fedf-fcfe-4da2-bad1-fd2508eb6b6f)
 
-### Step 5: SonarQube Setup on Jenkins
+### Step 6: SonarQube Setup on Jenkins
 - Login to your Jenkins and navigate to Manage jenkins 
 - Choose credentials and add a new credentials , choose Secret text from drop down and enter the token that you copied in above step.
 - Navigate to Manage Jenkins and to System. 
